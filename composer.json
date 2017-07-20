@@ -1,0 +1,23 @@
+{
+    "name": "kenpingshu/php-etl",
+    "description": "etl tools will transform data from source to target",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ken Hsu",
+            "email": "knel.tw@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.2",
+        "mikey179/vfsStream": "^1.6",
+        "illuminate/database": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Etl\\": "src/",
+            "Example\\": "example/"
+        }
+    }
+}
